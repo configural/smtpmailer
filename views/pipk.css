@@ -1,0 +1,26 @@
+h1, h2, h3, h4 {font-family: arial narrow !important;}
+
+
+/*.nav {margin-top: 20px; margin-bottom: 20px;}*/
+/*.nav > li > a {color: white !important; font-size: 12pt;}*/
+.navigation {border: none !important; background: #0066B8 !important; margin-top: 40px; margin-bottom: 40px;}
+.navigation a {color: #fff;}
+.navigation a:hover {color: #fff;} 
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+	border-radius: 0px;
+    background-color: rgba(255,255,255,0.2) !important;
+}
+
+.item-image {
+	max-width: 120px;
+	max-height: 120px;
+}
+
+.field-entry {margin-bottom: 8px;}
+.field-label {color: #000; font-weight: bold;}
+.field-value {color: #505050;}	
+
+.item-page
+ p {text-align: justify !important; font-size: 1.1em; line-height: 1.3em; }
