@@ -6,37 +6,31 @@ $SenderConfig = array(
             "SMTP_server"   =>  "smtp.yandex.ru",
             "SMTP_port"     =>  "465",
             "SMTP_email"    =>  "edu.fns@yandex.ru",
-            "SMTP_pass"     =>  "Edufns2018",
+            "SMTP_pass"     =>  "",
             "SMTP_type"     =>  "SSL"),
     
     array(  "SMTP_server"   =>  "smtp.yandex.ru",
             "SMTP_port"     =>  "465",
             "SMTP_email"    =>  "pipk.fns@yandex.ru",
-            "SMTP_pass"     =>  "FnsPipk2018",
+            "SMTP_pass"     =>  "",
             "SMTP_type"     =>  "SSL"),
     
     array(
             "SMTP_server"   =>  "smtp.yandex.ru",
             "SMTP_port"     =>  "465",
             "SMTP_email"    =>  "fns.pipk@yandex.ru",
-            "SMTP_pass"     =>  "Fnspipk2018",
+            "SMTP_pass"     =>  "",
             "SMTP_type"     =>  "SSL"),
    
     /*array(
             "SMTP_server"   =>  "ssl://smtp.rambler.ru",
             "SMTP_port"     =>  "465",
             "SMTP_email"    =>  "pipk-fns@rambler.ru",
-            "SMTP_pass"     =>  "Pipk52Fns",
+            "SMTP_pass"     =>  "",
             "SMTP_type"     =>  "SSL"),        
-  /*  array(  "SMTP_server"   =>  "smtp.yandex.ru",
-            "SMTP_port"     =>  "465",
-            "SMTP_email"    =>  "configural@yandex.ru",
-            "SMTP_pass"     =>  "Tamboti2014",
-            "SMTP_type"     =>  "SSL"),*/
+
 );
-/* 
- * pipk_nnov@mail.ru/123456pipk
- *  */
+
 date_default_timezone_set('Europe/Moscow');
 
 function dbConnect() {
