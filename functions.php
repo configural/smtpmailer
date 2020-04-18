@@ -22,7 +22,7 @@ $SenderConfig = array(
             "SMTP_pass"     =>  "",
             "SMTP_type"     =>  "SSL"),
    
-    /*array(
+    array(
             "SMTP_server"   =>  "ssl://smtp.rambler.ru",
             "SMTP_port"     =>  "465",
             "SMTP_email"    =>  "pipk-fns@rambler.ru",
